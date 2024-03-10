@@ -1,0 +1,102 @@
+body{
+    overflow-x: hidden;
+}
+.medhed{
+    display:  flex;
+}
+.home{
+    background-color:  rgb(209, 209, 209);
+    width: 100%
+    
+}
+.topboxdes{
+    display: grid;
+    grid-template-columns: repeat(4,1fr) ;
+    position: relative;
+    top: 2.5cm;
+    left: 15px;
+    margin: 0.5cm;
+ 
+}
+.boxdemo{
+    background-color: rgb(255, 255, 255);
+    width: 9cm;
+    height: 8cm;
+    display: flex;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.fsinfo{
+    display: flex;
+    grid-template-columns: repeat(2,1fr) ;
+    gap: 40px;
+    position: relative;
+    top: 1cm;
+}
+#iconfs{
+    /* background-color: pink; */
+    width: 2cm;
+    height: 2cm;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+
+li{
+    display: flex;
+}
+.infofs{
+    font-size: 0.7cm;
+    font-family: Arial black;
+    width: 2cm;
+}
+.cl{
+    position: relative;
+    top: 3cm;
+    right: 6cm;
+    width: 7cm;
+    height: 1cm;
+    color: rgb(116, 116, 116);
+    font-size: 0.5cm;
+    /* background-color: rgb(255, 208, 120); */
+}
+.cl1{
+    /*padding: 1cm;
+    */width: 5cm;
+    height: 1.2cm;
+    position: relative;
+    top: 5cm;
+    right: 14cm;
+    color: rgb(4, 0, 255);
+    font-size: 0.5cm;
+    font-family: Arial black;
+    border-color: rgb(0, 51, 255);
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    /*position: relative;
+    */
+}
+.cl1:hover{
+    border-radius: 20px;
+    background-color: rgb(17, 0, 255);
+    color: rgb(255, 255, 255);
+}
+
+#box2{
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 2cm;
+    padding: 4cm;
+    margin:1.8cm;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
